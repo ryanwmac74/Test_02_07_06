@@ -1,0 +1,200 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+denvergov.org_01,Chrome 97.0.4692.99,,,2022-02-08 13:13:58,2022-02-08 13:22:28,8m - 29.984s,PASSED
+,,,,,,,
+Test Cases/Building Permit Status,Chrome 97.0.4692.99,,,2022-02-08 13:13:59,2022-02-08 13:14:29,30.842s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-08 13:13:59,2022-02-08 13:14:06,6.184s,PASSED
+"navigateToUrl(""https://www.denvergov.org/buildingpermitstatus"")",Chrome 97.0.4692.99,,,2022-02-08 13:14:06,2022-02-08 13:14:07,1.421s,PASSED
+"setText(findTestObject(""Object Repository/Page_Building Permit Status/input_Enter your log number_txtBidSearch (2)""), ""2017-LOG-0000920"")",Chrome 97.0.4692.99,,,2022-02-08 13:14:07,2022-02-08 13:14:08,1.023s,PASSED
+"click(findTestObject(""Object Repository/Page_Building Permit Status/button_Search (2)""))",Chrome 97.0.4692.99,,,2022-02-08 13:14:08,2022-02-08 13:14:09,0.513s,PASSED
+"click(findTestObject(""Object Repository/Page_Building Permit Status/span_Access Control Review""))",Chrome 97.0.4692.99,,,2022-02-08 13:14:09,2022-02-08 13:14:09,0.815s,PASSED
+delay(20),Chrome 97.0.4692.99,,,2022-02-08 13:14:09,2022-02-08 13:14:29,20.065s,PASSED
+,,,,,,,
+Test Cases/Campaign Finance,Chrome 97.0.4692.99,,,2022-02-08 13:14:29,2022-02-08 13:14:53,23.560s,PASSED
+"navigateToUrl(""https://www.denvergov.org/campaignfinancereport"")",Chrome 97.0.4692.99,,,2022-02-08 13:14:30,2022-02-08 13:14:34,4.205s,PASSED
+"click(findTestObject(""Object Repository/Page_Login/a_Sign-in or Sign-up (2)""))",Chrome 97.0.4692.99,,,2022-02-08 13:14:34,2022-02-08 13:14:36,1.856s,PASSED
+"setText(findTestObject(""Object Repository/Page_City and County of Denver - Sign up or_2a444f/input_Email address_Email address (1)""), ""ryan.mcnamara@denvergov.org"")",Chrome 97.0.4692.99,,,2022-02-08 13:14:36,2022-02-08 13:14:37,1.260s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_City and County of Denver - Sign up or_2a444f/input_Forgot your password_Password (1)""), ""hFow20/Uu/pTsQ2nSo6UlA=="")",Chrome 97.0.4692.99,,,2022-02-08 13:14:37,2022-02-08 13:14:38,0.440s,PASSED
+"click(findTestObject(""Object Repository/Page_City and County of Denver - Sign up or_2a444f/button_Sign in (1)""))",Chrome 97.0.4692.99,,,2022-02-08 13:14:38,2022-02-08 13:14:38,0.400s,PASSED
+delay(15),Chrome 97.0.4692.99,,,2022-02-08 13:14:38,2022-02-08 13:14:53,15.003s,PASSED
+,,,,,,,
+Test Cases/Citation Payment,Chrome 97.0.4692.99,,,2022-02-08 13:14:53,2022-02-08 13:15:03,9.687s,PASSED
+"navigateToUrl(""https://www.denvergov.org/content/denvergov/en/denver-development-services/help-me-find-/inspections/common-code-violations/Pay-Neighborhood-Citation.html/"")",Chrome 97.0.4692.99,,,2022-02-08 13:14:54,2022-02-08 13:15:02,7.998s,PASSED
+"setText(findTestObject(""Object Repository/Page_Neighborhood Inspections Citation Payment/input_Citation Number_record-number-lookup""), ""2022"")",Chrome 97.0.4692.99,,,2022-02-08 13:15:02,2022-02-08 13:15:02,0.713s,PASSED
+"click(findTestObject(""Object Repository/Page_Neighborhood Inspections Citation Payment/div_Verification  Search""))",Chrome 97.0.4692.99,,,2022-02-08 13:15:02,2022-02-08 13:15:03,0.461s,PASSED
+,,,,,,,
+Test Cases/City Attorney Directory,Chrome 97.0.4692.99,,,2022-02-08 13:15:03,2022-02-08 13:15:19,16.475s,PASSED
+"navigateToUrl(""https://www.denvergov.org/cityattorneydirectory"")",Chrome 97.0.4692.99,,,2022-02-08 13:15:04,2022-02-08 13:15:06,1.333s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home Page/input_Search for attorneys by name. Filter _7eafe0 (1)""), ""david"")",Chrome 97.0.4692.99,,,2022-02-08 13:15:06,2022-02-08 13:15:08,2.203s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Home Page/select_All Practices4511700 Prosecution and_7e44f6 (1)""), ""1"", true)",Chrome 97.0.4692.99,,,2022-02-08 13:15:08,2022-02-08 13:15:09,1.431s,PASSED
+delay(10),Chrome 97.0.4692.99,,,2022-02-08 13:15:09,2022-02-08 13:15:19,10.010s,PASSED
+,,,,,,,
+Test Cases/City Council Appointment,Chrome 97.0.4692.99,,,2022-02-08 13:15:19,2022-02-08 13:15:33,13.988s,PASSED
+"navigateToUrl(""https://www.denvergov.org/content/denvergov/en/denver-city-council/council-members/district-1/city-council-appointment.html/schedule"")",Chrome 97.0.4692.99,,,2022-02-08 13:15:19,2022-02-08 13:15:21,1.853s,PASSED
+"click(findTestObject(""Object Repository/Page_City Council Appointment/span_Council Members""))",Chrome 97.0.4692.99,,,2022-02-08 13:15:21,2022-02-08 13:15:33,11.826s,PASSED
+,,,,,,,
+Test Cases/Compost Signup,Chrome 97.0.4692.99,,,2022-02-08 13:15:33,2022-02-08 13:16:25,51.746s,PASSED
+"navigateToUrl(""https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Recycle-Compost-Trash/Recycle-Compost-Trash-Schedules-and-Reminders"")",Chrome 97.0.4692.99,,,2022-02-08 13:15:34,2022-02-08 13:15:37,3.550s,PASSED
+"click(findTestObject(""Object Repository/Page_Recycle, Compost, Trash Collection Sch_57d3d5/span_Missed Collections""))",Chrome 97.0.4692.99,,,2022-02-08 13:15:37,2022-02-08 13:15:38,0.460s,PASSED
+delay(10),Chrome 97.0.4692.99,,,2022-02-08 13:15:38,2022-02-08 13:15:48,10.016s,PASSED
+"click(findTestObject(""Object Repository/Page_Recycle, Compost, Trash Collection Sch_57d3d5/span_Holidays""))",Chrome 97.0.4692.99,,,2022-02-08 13:15:48,2022-02-08 13:15:48,0.453s,PASSED
+delay(10),Chrome 97.0.4692.99,,,2022-02-08 13:15:48,2022-02-08 13:15:58,10.009s,PASSED
+"click(findTestObject(""Object Repository/Page_Recycle, Compost, Trash Collection Sch_57d3d5/h4_Why are routes and schedules changing""))",Chrome 97.0.4692.99,,,2022-02-08 13:15:58,2022-02-08 13:15:59,0.376s,PASSED
+delay(10),Chrome 97.0.4692.99,,,2022-02-08 13:15:59,2022-02-08 13:16:09,10.011s,PASSED
+"click(findTestObject(""Object Repository/Page_Recycle, Compost, Trash Collection Sch_57d3d5/h4_What is my Recycling week information""))",Chrome 97.0.4692.99,,,2022-02-08 13:16:09,2022-02-08 13:16:09,0.389s,PASSED
+delay(10),Chrome 97.0.4692.99,,,2022-02-08 13:16:09,2022-02-08 13:16:19,10.009s,PASSED
+"click(findTestObject(""Object Repository/Page_Recycle, Compost, Trash Collection Sch_57d3d5/a_Denver Recycles""))",Chrome 97.0.4692.99,,,2022-02-08 13:16:19,2022-02-08 13:16:25,5.962s,PASSED
+,,,,,,,
+Test Cases/Council Bills,Chrome 97.0.4692.99,,,2022-02-08 13:16:25,2022-02-08 13:16:50,25.553s,PASSED
+"navigateToUrl(""https://www.denvergov.org/councilbills"")",Chrome 97.0.4692.99,,,2022-02-08 13:16:26,2022-02-08 13:16:29,3.345s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home  Application/input_Council Bill Number_billNumber""), ""2001-0439"")",Chrome 97.0.4692.99,,,2022-02-08 13:16:29,2022-02-08 13:16:35,6.114s,PASSED
+"click(findTestObject(""Object Repository/Page_Home  Application/button_Search""))",Chrome 97.0.4692.99,,,2022-02-08 13:16:35,2022-02-08 13:16:35,0.422s,PASSED
+delay(15),Chrome 97.0.4692.99,,,2022-02-08 13:16:35,2022-02-08 13:16:50,15.017s,PASSED
+,,,,,,,
+Test Cases/DIA Payments,Chrome 97.0.4692.99,,,2022-02-08 13:16:50,2022-02-08 13:17:12,21.149s,PASSED
+"navigateToUrl(""https://www.denvergov.org/payments/dia/vendors"")",Chrome 97.0.4692.99,,,2022-02-08 13:16:51,2022-02-08 13:16:51,0.265s,PASSED
+"click(findTestObject(""Object Repository/Page_DEN Payments/span_Pay by customer code""))",Chrome 97.0.4692.99,,,2022-02-08 13:16:51,2022-02-08 13:16:52,0.486s,PASSED
+"click(findTestObject(""Object Repository/Page_DEN Payments/button_I accept""))",Chrome 97.0.4692.99,,,2022-02-08 13:16:52,2022-02-08 13:16:54,2.190s,PASSED
+"setText(findTestObject(""Object Repository/Page_Item Details/input_Customer_ucPOSWebDisplayItem9804_1""), ""12345"")",Chrome 97.0.4692.99,,,2022-02-08 13:16:54,2022-02-08 13:16:54,0.667s,PASSED
+"click(findTestObject(""Object Repository/Page_Item Details/input_Customer_cmdNext""))",Chrome 97.0.4692.99,,,2022-02-08 13:16:54,2022-02-08 13:17:02,7.205s,PASSED
+delay(10),Chrome 97.0.4692.99,,,2022-02-08 13:17:02,2022-02-08 13:17:12,10.012s,PASSED
+,,,,,,,
+Test Cases/Election Archive,Chrome 97.0.4692.99,,,2022-02-08 13:17:12,2022-02-08 13:17:15,3.367s,PASSED
+"navigateToUrl(""https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Office-of-the-Clerk-and-Recorder/Elections-Division/Data-and-Maps"")",Chrome 97.0.4692.99,,,2022-02-08 13:17:12,2022-02-08 13:17:14,1.929s,PASSED
+"click(findTestObject(""Object Repository/Page_Data and Maps - City and County of Denver/h4_2022 Precincts""))",Chrome 97.0.4692.99,,,2022-02-08 13:17:14,2022-02-08 13:17:14,0.556s,PASSED
+"switchToWindowTitle(""Data and Maps - City and County of Denver"")",Chrome 97.0.4692.99,,,2022-02-08 13:17:14,2022-02-08 13:17:14,0.075s,PASSED
+"click(findTestObject(""Object Repository/Page_Data and Maps - City and County of Denver/a_View interactive precincts map""))",Chrome 97.0.4692.99,,,2022-02-08 13:17:14,2022-02-08 13:17:15,0.544s,PASSED
+,,,,,,,
+Test Cases/Election Maps,Chrome 97.0.4692.99,,,2022-02-08 13:17:15,2022-02-08 13:17:45,30.126s,PASSED
+"navigateToUrl(""https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Office-of-the-Clerk-and-Recorder/Elections-Division/Data-and-Maps"")",Chrome 97.0.4692.99,,,2022-02-08 13:17:16,2022-02-08 13:17:20,4.710s,PASSED
+"click(findTestObject(""Object Repository/Page_Data and Maps - City and County of Denver/h4_Results and Maps""))",Chrome 97.0.4692.99,,,2022-02-08 13:17:20,2022-02-08 13:17:23,2.919s,PASSED
+delay(10),Chrome 97.0.4692.99,,,2022-02-08 13:17:23,2022-02-08 13:17:33,10.013s,PASSED
+"click(findTestObject(""Object Repository/Page_Data and Maps - City and County of Denver/a_2020 General Election""))",Chrome 97.0.4692.99,,,2022-02-08 13:17:33,2022-02-08 13:17:35,1.869s,PASSED
+delay(10),Chrome 97.0.4692.99,,,2022-02-08 13:17:35,2022-02-08 13:17:45,10.017s,PASSED
+,,,,,,,
+Test Cases/Election Results,Chrome 97.0.4692.99,,,2022-02-08 13:17:45,2022-02-08 13:19:23,1m - 37.992s,PASSED
+"navigateToUrl(""https://www.denvergov.org/electionresults#/results/20211102"")",Chrome 97.0.4692.99,,,2022-02-08 13:17:46,2022-02-08 13:17:48,2.185s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Election Results/button_Select an election""))",Chrome 97.0.4692.99,,,2022-02-08 13:17:48,2022-02-08 13:17:57,9.116s,PASSED
+delay(15),Chrome 97.0.4692.99,,,2022-02-08 13:17:57,2022-02-08 13:18:12,15.014s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Election Results/a_Coordinated Election -November 2, 2021""))",Chrome 97.0.4692.99,,,2022-02-08 13:18:12,2022-02-08 13:18:14,1.994s,PASSED
+delay(15),Chrome 97.0.4692.99,,,2022-02-08 13:18:14,2022-02-08 13:18:29,15.006s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Election Results/button_Select an election""))",Chrome 97.0.4692.99,,,2022-02-08 13:18:29,2022-02-08 13:18:31,1.975s,PASSED
+delay(15),Chrome 97.0.4692.99,,,2022-02-08 13:18:31,2022-02-08 13:18:46,15.006s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Election Results/a_General Election -November 3, 2020""))",Chrome 97.0.4692.99,,,2022-02-08 13:18:46,2022-02-08 13:18:48,2.028s,PASSED
+delay(15),Chrome 97.0.4692.99,,,2022-02-08 13:18:48,2022-02-08 13:19:03,15.018s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Election Results/button_Select an election""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:03,2022-02-08 13:19:05,2.041s,PASSED
+delay(15),Chrome 97.0.4692.99,,,2022-02-08 13:19:05,2022-02-08 13:19:20,15.015s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Election Results/a_Presidential Primary Election -March 3, 2020""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:20,2022-02-08 13:19:22,1.883s,PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-08 13:19:22,2022-02-08 13:19:23,1.104s,PASSED
+,,,,,,,
+Test Cases/Homeless Property Storage,Chrome 97.0.4692.99,,,2022-02-08 13:19:23,2022-02-08 13:19:30,7.012s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-08 13:19:23,2022-02-08 13:19:25,1.861s,PASSED
+"navigateToUrl(""https://www.denvergov.org/content/denvergov/en/housing-information/resident-resources/property-removal-and-storage.html"")",Chrome 97.0.4692.99,,,2022-02-08 13:19:25,2022-02-08 13:19:27,1.831s,PASSED
+"click(findTestObject(""Object Repository/Page_Property Removal and Storage/div_Search""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:27,2022-02-08 13:19:30,2.474s,PASSED
+"click(findTestObject(""Object Repository/Page_Property Removal and Storage/div_Cherry Creek street level near Sunken Gardens""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:30,2022-02-08 13:19:30,0.510s,PASSED
+,,,,,,,
+Test Cases/Inmate Search,Chrome 97.0.4692.99,,,2022-02-08 13:19:30,2022-02-08 13:19:35,5.276s,PASSED
+"navigateToUrl(""https://denvergov.org/inmatesearch/"")",Chrome 97.0.4692.99,,,2022-02-08 13:19:31,2022-02-08 13:19:32,1.118s,PASSED
+"setText(findTestObject(""Object Repository/Page_Inmate Search  City and County of Denver/input_Find the location of an inmate in Den_1e8108""), ""smith"")",Chrome 97.0.4692.99,,,2022-02-08 13:19:32,2022-02-08 13:19:33,1.114s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Inmate Search  City and County of Denver/input_Find the location of an inmate in Den_1e8108""), Keys.chord(ENTER))",Chrome 97.0.4692.99,,,2022-02-08 13:19:33,2022-02-08 13:19:34,0.533s,PASSED
+"click(findTestObject(""Object Repository/Page_Inmate Search  City and County of Denver/div_All""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:34,2022-02-08 13:19:35,0.806s,PASSED
+"click(findTestObject(""Object Repository/Page_Inmate Search  City and County of Denver/span_County Jail""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:35,2022-02-08 13:19:35,0.893s,PASSED
+,,,,,,,
+Test Cases/Land Survey Plat,Chrome 97.0.4692.99,,,2022-02-08 13:19:35,2022-02-08 13:20:17,41.508s,PASSED
+"navigateToUrl(""https://www.denvergov.org/landsurveydata/search"")",Chrome 97.0.4692.99,,,2022-02-08 13:19:36,2022-02-08 13:19:38,2.053s,PASSED
+"setText(findTestObject(""Object Repository/Page_Public Works Survey Data Tool/input_Plat Category_mat-input-1""), ""test"")",Chrome 97.0.4692.99,,,2022-02-08 13:19:38,2022-02-08 13:19:39,0.986s,PASSED
+"click(findTestObject(""Object Repository/Page_Public Works Survey Data Tool/div_SubdivisionPlat CategoryLegal Descripti_ef3a89""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:39,2022-02-08 13:19:40,0.437s,PASSED
+"click(findTestObject(""Object Repository/Page_Public Works Survey Data Tool/span_""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:40,2022-02-08 13:19:40,0.441s,PASSED
+"click(findTestObject(""Object Repository/Page_Public Works Survey Data Tool/span_NE""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:40,2022-02-08 13:19:41,0.521s,PASSED
+"click(findTestObject(""Object Repository/Page_Public Works Survey Data Tool/input_Quarter_mat-input-2""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:41,2022-02-08 13:19:42,1.095s,PASSED
+"click(findTestObject(""Object Repository/Page_Public Works Survey Data Tool/span_1""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:42,2022-02-08 13:19:42,0.561s,PASSED
+"click(findTestObject(""Object Repository/Page_Public Works Survey Data Tool/div_Township""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:42,2022-02-08 13:19:43,0.551s,PASSED
+"click(findTestObject(""Object Repository/Page_Public Works Survey Data Tool/span_1""))",Chrome 97.0.4692.99,,,2022-02-08 13:19:43,2022-02-08 13:20:16,32.736s,PASSED
+"click(findTestObject(""Object Repository/Page_Public Works Survey Data Tool/div_Range""))",Chrome 97.0.4692.99,,,2022-02-08 13:20:16,2022-02-08 13:20:16,0.491s,PASSED
+"click(findTestObject(""Object Repository/Page_Public Works Survey Data Tool/span_61""))",Chrome 97.0.4692.99,,,2022-02-08 13:20:16,2022-02-08 13:20:16,0.482s,PASSED
+"click(findTestObject(""Object Repository/Page_Public Works Survey Data Tool/span_Search""))",Chrome 97.0.4692.99,,,2022-02-08 13:20:16,2022-02-08 13:20:17,0.478s,PASSED
+,,,,,,,
+Test Cases/License Hearings List,Chrome 97.0.4692.99,,,2022-02-08 13:20:17,2022-02-08 13:20:25,8.139s,PASSED
+"navigateToUrl(""https://www.denvergov.org/licensehearings"")",Chrome 97.0.4692.99,,,2022-02-08 13:20:17,2022-02-08 13:20:19,1.865s,PASSED
+"click(findTestObject(""Object Repository/Page_E  L Public Hearing Schedule/a_Marijuana License Hearings""))",Chrome 97.0.4692.99,,,2022-02-08 13:20:19,2022-02-08 13:20:20,0.917s,PASSED
+"click(findTestObject(""Object Repository/Page_E  L Public Hearing Schedule/a_Liquor License Hearings""))",Chrome 97.0.4692.99,,,2022-02-08 13:20:20,2022-02-08 13:20:24,4.195s,PASSED
+"setText(findTestObject(""Object Repository/Page_E  L Public Hearing Schedule/input_A to Z_q""), ""american legion"")",Chrome 97.0.4692.99,,,2022-02-08 13:20:24,2022-02-08 13:20:25,0.806s,PASSED
+,,,,,,,
+Test Cases/Open Checkbook,Chrome 97.0.4692.99,,,2022-02-08 13:20:25,2022-02-08 13:20:51,26.141s,PASSED
+"navigateToUrl(""https://www.denvergov.org/transparency/checkbook#/home?year=2022"")",Chrome 97.0.4692.99,,,2022-02-08 13:20:26,2022-02-08 13:20:30,4.400s,PASSED
+"setText(findTestObject(""Object Repository/Page_Denvers Online Checkbook  City and Cou_85d4c7/input_Filter by Year_form-control""), ""Denver"")",Chrome 97.0.4692.99,,,2022-02-08 13:20:30,2022-02-08 13:20:39,8.584s,PASSED
+"click(findTestObject(""Object Repository/Page_Denvers Online Checkbook  City and Cou_85d4c7/div_Search""))",Chrome 97.0.4692.99,,,2022-02-08 13:20:39,2022-02-08 13:20:39,0.469s,PASSED
+"click(findTestObject(""Object Repository/Page_Denvers Online Checkbook  City and Cou_85d4c7/a_VISIT DENVER""))",Chrome 97.0.4692.99,,,2022-02-08 13:20:39,2022-02-08 13:20:41,1.878s,PASSED
+delay(10),Chrome 97.0.4692.99,,,2022-02-08 13:20:41,2022-02-08 13:20:51,10.013s,PASSED
+,,,,,,,
+Test Cases/Open Data Catalogue,Chrome 97.0.4692.99,,,2022-02-08 13:20:51,2022-02-08 13:20:57,5.585s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-08 13:20:52,2022-02-08 13:20:54,2.374s,PASSED
+"navigateToUrl(""https://www.denvergov.org/opendata"")",Chrome 97.0.4692.99,,,2022-02-08 13:20:54,2022-02-08 13:20:56,1.638s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Open Data Catalog/p_NOTICEAs of February 2019, Procurement an_e4a9cb""))",Chrome 97.0.4692.99,,,2022-02-08 13:20:56,2022-02-08 13:20:56,0.419s,PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-08 13:20:56,2022-02-08 13:20:57,0.902s,PASSED
+,,,,,,,
+Test Cases/Planned Building Groups,Chrome 97.0.4692.99,,,2022-02-08 13:20:57,2022-02-08 13:21:03,6.199s,PASSED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-08 13:20:57,2022-02-08 13:20:59,1.928s,PASSED
+"navigateToUrl(""https://www.denvergov.org/plannedbuildinggroups"")",Chrome 97.0.4692.99,,,2022-02-08 13:20:59,2022-02-08 13:21:01,2.199s,PASSED
+"setText(findTestObject(""Object Repository/Page_Search for Planned Building Groups in Denver/input_Project Name_SubName (1)""), ""Ryan"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:01,2022-02-08 13:21:02,0.982s,PASSED
+"setText(findTestObject(""Object Repository/Page_Search for Planned Building Groups in Denver/input_Clerk  Recorder Number_CrNum""), ""Test"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:02,2022-02-08 13:21:03,0.683s,PASSED
+,,,,,,,
+Test Cases/Police Records,Chrome 97.0.4692.99,,,2022-02-08 13:21:03,2022-02-08 13:21:08,4.943s,PASSED
+"navigateToUrl(""https://www.denvergov.org/content/denvergov/en/police-department/records/request-records-online.html"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:04,2022-02-08 13:21:05,1.486s,PASSED
+"setText(findTestObject(""Object Repository/Page_Police Department - Request Records On_fbf425/input__firstName (2)""), ""Ryan"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:05,2022-02-08 13:21:07,2.035s,PASSED
+"setText(findTestObject(""Object Repository/Page_Police Department - Request Records On_fbf425/input_Last Name_lastName""), ""Smith"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:07,2022-02-08 13:21:08,0.864s,PASSED
+,,,,,,,
+Test Cases/Property,Chrome 97.0.4692.99,,,2022-02-08 13:21:08,2022-02-08 13:21:17,8.544s,PASSED
+"navigateToUrl(""https://www.denvergov.org/property"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:09,2022-02-08 13:21:13,4.987s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Property Taxation and Assessmen_23b5ee/input_Business Personal Property_searchType""))",Chrome 97.0.4692.99,,,2022-02-08 13:21:13,2022-02-08 13:21:14,0.474s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Property Taxation and Assessmen_23b5ee/input_Real Estate_searchType""))",Chrome 97.0.4692.99,,,2022-02-08 13:21:14,2022-02-08 13:21:14,0.457s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Property Taxation and Assessmen_23b5ee/a_Advanced Search""))",Chrome 97.0.4692.99,,,2022-02-08 13:21:14,2022-02-08 13:21:15,0.791s,PASSED
+"setText(findTestObject(""Object Repository/Page_Denver Property Taxation and Assessmen_23b5ee/input_Note_search""), ""740 Clarkson"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:15,2022-02-08 13:21:16,0.807s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Property Taxation and Assessmen_23b5ee/button_Search""))",Chrome 97.0.4692.99,,,2022-02-08 13:21:16,2022-02-08 13:21:17,0.527s,PASSED
+,,,,,,,
+Test Cases/Real Estate Property,Chrome 97.0.4692.99,,,2022-02-08 13:21:17,2022-02-08 13:21:18,1.820s,PASSED
+"navigateToUrl(""https://www.denvergov.org/content/denvergov/en/denver-department-of-finance/our-divisions/assessor/real-property/alternative-search.html"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:17,2022-02-08 13:21:18,0.948s,PASSED
+,,,,,,,
+Test Cases/Recycling Requests,Chrome 97.0.4692.99,,,2022-02-08 13:21:18,2022-02-08 13:21:30,11.210s,PASSED
+"navigateToUrl(""https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Recycle-Compost-Trash/Recycle-Compost-Trash-Schedules-and-Reminders"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:19,2022-02-08 13:21:25,5.480s,PASSED
+"click(findTestObject(""Object Repository/Page_Recycle, Compost, Trash Collection Sch_57d3d5/a_Trash Service""))",Chrome 97.0.4692.99,,,2022-02-08 13:21:25,2022-02-08 13:21:28,3.373s,PASSED
+"click(findTestObject(""Object Repository/Page_Trash - City and County of Denver/a_Extra Trash Collection""))",Chrome 97.0.4692.99,,,2022-02-08 13:21:28,2022-02-08 13:21:29,0.725s,PASSED
+"click(findTestObject(""Object Repository/Page_Trash - City and County of Denver/h5_Mattresses and box springs""))",Chrome 97.0.4692.99,,,2022-02-08 13:21:29,2022-02-08 13:21:30,0.884s,PASSED
+,,,,,,,
+Test Cases/Restaraunt Inspections,Chrome 97.0.4692.99,,,2022-02-08 13:21:30,2022-02-08 13:21:34,4.359s,PASSED
+"navigateToUrl(""https://www.denvergov.org/restaurantinspections/"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:31,2022-02-08 13:21:33,1.843s,PASSED
+"click(findTestObject(""Object Repository/Page_Restaurant Health Inspection Search/small_Critical Violations""))",Chrome 97.0.4692.99,,,2022-02-08 13:21:33,2022-02-08 13:21:33,0.850s,PASSED
+"click(findTestObject(""Object Repository/Page_Restaurant Health Inspection Search/small_Non-critical Violations""))",Chrome 97.0.4692.99,,,2022-02-08 13:21:33,2022-02-08 13:21:34,0.614s,PASSED
+,,,,,,,
+Test Cases/Subdivision Survey,Chrome 97.0.4692.99,,,2022-02-08 13:21:34,2022-02-08 13:21:40,6.406s,PASSED
+"navigateToUrl(""https://www.denvergov.org/subdivisionsurveys/"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:35,2022-02-08 13:21:38,2.507s,PASSED
+"setText(findTestObject(""Object Repository/Page_Search for Subdivision Plats in Denver/input_Subdivision Name_SubName""), ""Bonnie Brae"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:38,2022-02-08 13:21:39,1.059s,PASSED
+"click(findTestObject(""Object Repository/Page_Search for Subdivision Plats in Denver/button_Search""))",Chrome 97.0.4692.99,,,2022-02-08 13:21:39,2022-02-08 13:21:40,1.762s,PASSED
+,,,,,,,
+Test Cases/Tie Book Search,Chrome 97.0.4692.99,,,2022-02-08 13:21:40,2022-02-08 13:21:44,3.845s,PASSED
+"navigateToUrl(""https://www.denvergov.org/tiebooksearch"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:41,2022-02-08 13:21:42,0.780s,PASSED
+"setText(findTestObject(""Object Repository/Page_Tie Book Search/input_NorthSouth Street Name_northsouth""), ""Clarkson"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:42,2022-02-08 13:21:43,1.054s,PASSED
+"click(findTestObject(""Object Repository/Page_Tie Book Search/button_Search""))",Chrome 97.0.4692.99,,,2022-02-08 13:21:43,2022-02-08 13:21:44,1.040s,PASSED
+,,,,,,,
+Test Cases/Traffic Cams,Chrome 97.0.4692.99,,,2022-02-08 13:21:44,2022-02-08 13:21:58,14.047s,PASSED
+"navigateToUrl(""https://www.denvergov.org/Maps/map/trafficcameras"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:45,2022-02-08 13:21:45,0.457s,PASSED
+"setText(findTestObject(""Object Repository/Page_Denver Maps - Traffic Conditions/input_Traffic Conditions_textbox""), ""2544 Champa Street"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:45,2022-02-08 13:21:48,2.120s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Maps - Traffic Conditions/input_Traffic Conditions_searchButton""))",Chrome 97.0.4692.99,,,2022-02-08 13:21:48,2022-02-08 13:21:48,0.705s,PASSED
+delay(10),Chrome 97.0.4692.99,,,2022-02-08 13:21:48,2022-02-08 13:21:58,10.017s,PASSED
+,,,,,,,
+Test Cases/Voter List,Chrome 97.0.4692.99,,,2022-02-08 13:21:58,2022-02-08 13:22:03,4.496s,PASSED
+"navigateToUrl(""https://www.denvergov.org/content/denvergov/en/denver-elections-divison/campaign-information/voter-data/voter-list-downloads.html"")",Chrome 97.0.4692.99,,,2022-02-08 13:21:59,2022-02-08 13:22:01,2.205s,PASSED
+"switchToWindowTitle(""Denver Elections Division | Voter Data | Voter List Downloads"")",Chrome 97.0.4692.99,,,2022-02-08 13:22:01,2022-02-08 13:22:01,0.029s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Elections Division  Voter Data _ab3a85/a_VoterDataCumulative_11-24-2021-1PM.zip""))",Chrome 97.0.4692.99,,,2022-02-08 13:22:01,2022-02-08 13:22:02,0.608s,PASSED
+"switchToWindowTitle(""Denver Elections Division | Voter Data | Voter List Downloads"")",Chrome 97.0.4692.99,,,2022-02-08 13:22:02,2022-02-08 13:22:02,0.052s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Elections Division  Voter Data _ab3a85/a_README.txt""))",Chrome 97.0.4692.99,,,2022-02-08 13:22:02,2022-02-08 13:22:03,1.223s,PASSED
+,,,,,,,
+Test Cases/Voter Registration,Chrome 97.0.4692.99,,,2022-02-08 13:22:03,2022-02-08 13:22:21,18.304s,PASSED
+"navigateToUrl(""https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Office-of-the-Clerk-and-Recorder/Elections-Division"")",Chrome 97.0.4692.99,,,2022-02-08 13:22:04,2022-02-08 13:22:06,2.299s,PASSED
+"click(findTestObject(""Object Repository/Page_Denver Elections Division - City and C_7d2d61/p_Get information on how to register, eligi_b0e42a""))",Chrome 97.0.4692.99,,,2022-02-08 13:22:06,2022-02-08 13:22:09,3.618s,PASSED
+delay(10),Chrome 97.0.4692.99,,,2022-02-08 13:22:09,2022-02-08 13:22:19,10.018s,PASSED
+"click(findTestObject(""Object Repository/Page_Register to Vote - City and County of Denver/a_Voter Registration Form""))",Chrome 97.0.4692.99,,,2022-02-08 13:22:19,2022-02-08 13:22:21,1.648s,PASSED
+,,,,,,,
+Test Cases/Waitlist Excise and License,Chrome 97.0.4692.99,,,2022-02-08 13:22:21,2022-02-08 13:22:28,6.995s,PASSED
+"navigateToUrl(""https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Business-Licensing"")",Chrome 97.0.4692.99,,,2022-02-08 13:22:22,2022-02-08 13:22:23,1.296s,PASSED
+"click(findTestObject(""Object Repository/Page_Business Licensing Center - City and C_eada31/strong_email application process page""))",Chrome 97.0.4692.99,,,2022-02-08 13:22:23,2022-02-08 13:22:27,3.729s,PASSED
+closeBrowser(),Chrome 97.0.4692.99,,,2022-02-08 13:22:27,2022-02-08 13:22:28,1.299s,PASSED

@@ -8,7 +8,7 @@
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Next page\u0027])[1]/following::span[1]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Public Works Survey Data Tool/span_1_neighbor.png"
+      "pathToScreenshot": "Reports/20220208_131347/denvergov.org_01/20220208_131347/Object Repository/Page_Public Works Survey Data Tool/span_1_neighbor.png"
     }
   ]
 }

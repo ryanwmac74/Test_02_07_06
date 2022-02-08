@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>iframe</name>
+   <tag></tag>
+   <elementGuidId>65f5eb8e-3bd6-4bf6-a452-c9ef43672ded</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>iframe</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//iframe</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>iframe</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.denvergov.org/voterlist</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;icon-events-icons-ready wf-proximanova-n1-active wf-proximanova-n7-active wf-proximanova-n4-active wf-proximanova-i7-active wf-proximanova-n3-active wf-proximanova-i4-active wf-active&quot;]/body[1]/section[@class=&quot;container denver-content-area&quot;]/div[@class=&quot;content parsys&quot;]/div[@class=&quot;columnControl parsys 100 section&quot;]/div[@class=&quot;1columns-100-1&quot;]/div[@class=&quot;column parsys right-pad-lrg&quot;]/div[@class=&quot;rawtext section&quot;]/div[@class=&quot;embed-container&quot;]/iframe[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//iframe</value>
+   </webElementXpaths>
+</WebElementEntity>
